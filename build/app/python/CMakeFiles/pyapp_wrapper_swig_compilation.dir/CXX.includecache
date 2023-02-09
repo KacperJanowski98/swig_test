@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projekty/SWIG_template/simple/app/python/app.i
+stdint.i
+D:/Projekty/SWIG_template/simple/app/python/stdint.i
+simple/app/types.h
+-
+simple/app_c.h
+-
+

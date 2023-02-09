@@ -1,0 +1,11 @@
+D:/Projekty/SWIG_template/simple/build/CMakeFiles/simple.dir
+D:/Projekty/SWIG_template/simple/build/CMakeFiles/edit_cache.dir
+D:/Projekty/SWIG_template/simple/build/CMakeFiles/rebuild_cache.dir
+D:/Projekty/SWIG_template/simple/build/app/CMakeFiles/simple_app.dir
+D:/Projekty/SWIG_template/simple/build/app/CMakeFiles/edit_cache.dir
+D:/Projekty/SWIG_template/simple/build/app/CMakeFiles/rebuild_cache.dir
+D:/Projekty/SWIG_template/simple/build/app/python/CMakeFiles/pyapp_wrapper.dir
+D:/Projekty/SWIG_template/simple/build/app/python/CMakeFiles/pyapp_wrapper_swig_compilation.dir
+D:/Projekty/SWIG_template/simple/build/app/python/CMakeFiles/pyapp-build-python.dir
+D:/Projekty/SWIG_template/simple/build/app/python/CMakeFiles/edit_cache.dir
+D:/Projekty/SWIG_template/simple/build/app/python/CMakeFiles/rebuild_cache.dir

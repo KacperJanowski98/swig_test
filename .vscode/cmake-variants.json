@@ -1,0 +1,52 @@
+{
+    "buildType": {
+        "default": "debug",
+        "description": "The CMake build type to use",
+        "choices": {
+            "debug": {
+                "short": "Debug",
+                "long": "Emit debug information without performing optimizations",
+                "buildType": "Debug"
+            },
+            "release": {
+                "short": "Release",
+                "long": "Enable optimizations, omit debug info",
+                "buildType": "Release"
+            }
+        }
+    },
+    "platform": {
+        "default": "mingw8.1_x64",
+        "description": "Select the type of platform to build for",
+        "choices": {
+			"mingw11.2_x64": {
+				"short": "MinGW 11.2 x64",
+				"long": "Build app with MinGW 11.2 x64",
+				"env": {
+					"PATH": "${env:PATH};C:/MinGW/mingw64_11.2/bin"
+				}
+			},
+            "mingw8.1_x64": {
+                "short": "MinGW 8.1 x64",
+                "long": "Build app with MinGW 8.1 x64",
+                "env": {
+                    "PATH": "${env:PATH};C:/MinGW/mingw64_8.1/bin"
+                }
+            },
+            "mingw8.1_x86": {
+                "short": "MinGW 8.1 x86",
+                "long": "Build app with MinGW 8.1 x86",
+                "env": {
+                    "PATH": "${env:PATH};C:/MinGW/mingw32_8.1/bin"
+                }  
+            },
+            "mingw5.4_x64": {
+                "short": "MinGW 5.4 x64",
+                "long": "Build app with MinGW 5.4 x64",
+                "env": {
+                    "PATH": "${env:PATH};C:/MinGW/mingw64_5.4/bin"
+                }  
+            }
+        }
+    }
+}

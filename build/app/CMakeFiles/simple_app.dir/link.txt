@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw810_64\bin\ar.exe qc libsimple_app.a CMakeFiles/simple_app.dir/src/app_c.cpp.obj
+C:\Qt\Tools\mingw810_64\bin\ranlib.exe libsimple_app.a

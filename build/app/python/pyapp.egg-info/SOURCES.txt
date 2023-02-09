@@ -1,0 +1,9 @@
+setup.py
+pyapp/__init__.py
+pyapp/_pyapp_wrapper.pyd
+pyapp/app.py
+pyapp/pyapp_wrapper.py
+pyapp.egg-info/PKG-INFO
+pyapp.egg-info/SOURCES.txt
+pyapp.egg-info/dependency_links.txt
+pyapp.egg-info/top_level.txt

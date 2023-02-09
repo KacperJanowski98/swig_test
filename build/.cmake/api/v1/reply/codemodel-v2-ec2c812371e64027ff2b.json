@@ -1,0 +1,148 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "app",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-app-Debug-7ab44524cbd5ada90c6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "app/python",
+					"jsonFile" : "directory-app.python-Debug-f12308ab8c5dde6bfe61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "app/python",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "simple_app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "pyapp-build-python::@d91746734bd531bc8eb9",
+					"jsonFile" : "target-pyapp-build-python-Debug-fd1dda963b81b58e39ba.json",
+					"name" : "pyapp-build-python",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pyapp_wrapper::@d91746734bd531bc8eb9",
+					"jsonFile" : "target-pyapp_wrapper-Debug-282cda555459676ecd5f.json",
+					"name" : "pyapp_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pyapp_wrapper_swig_compilation::@d91746734bd531bc8eb9",
+					"jsonFile" : "target-pyapp_wrapper_swig_compilation-Debug-07ee062389ecd79e9737.json",
+					"name" : "pyapp_wrapper_swig_compilation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple-Debug-a5d293003aaf0fc9d5e0.json",
+					"name" : "simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "simple_app::@5f5a17c01335469806cb",
+					"jsonFile" : "target-simple_app-Debug-d92bab82381db6dbb101.json",
+					"name" : "simple_app",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projekty/SWIG_template/simple/build",
+		"source" : "D:/Projekty/SWIG_template/simple"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

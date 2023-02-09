@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/Projekty/SWIG_template/simple/build",
+  "command": "C:\\Qt\\Tools\\mingw810_64\\bin\\c++.exe  @CMakeFiles/simple.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\simple.dir\\main.cpp.obj -c D:\\Projekty\\SWIG_template\\simple\\main.cpp",
+  "file": "D:/Projekty/SWIG_template/simple/main.cpp"
+},
+{
+  "directory": "D:/Projekty/SWIG_template/simple/build/app",
+  "command": "C:\\Qt\\Tools\\mingw810_64\\bin\\c++.exe  @CMakeFiles/simple_app.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\simple_app.dir\\src\\app_c.cpp.obj -c D:\\Projekty\\SWIG_template\\simple\\app\\src\\app_c.cpp",
+  "file": "D:/Projekty/SWIG_template/simple/app/src/app_c.cpp"
+},
+{
+  "directory": "D:/Projekty/SWIG_template/simple/build/app/python",
+  "command": "C:\\Qt\\Tools\\mingw810_64\\bin\\c++.exe -Dpyapp_wrapper_EXPORTS @CMakeFiles/pyapp_wrapper.dir/includes_CXX.rsp -g -Wno-maybe-uninitialized -Wno-missing-field-initializers -Wno-unused-parameter -std=gnu++14 -o CMakeFiles\\pyapp_wrapper.dir\\pyapp\\appPYTHON_wrap.cxx.obj -c D:\\Projekty\\SWIG_template\\simple\\build\\app\\python\\pyapp\\appPYTHON_wrap.cxx",
+  "file": "D:/Projekty/SWIG_template/simple/build/app/python/pyapp/appPYTHON_wrap.cxx"
+}
+]
