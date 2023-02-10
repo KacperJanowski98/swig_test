@@ -15,10 +15,10 @@ target_include_directories(simple_app
 target_sources(simple_app
     PRIVATE
         include/simple/app/types.h
-        # include/simple/app.hpp
+        include/simple/app.hpp
         include/simple/app_c.h
 
-        # src/app.cpp
+        src/app.cpp
         src/app_c.cpp
 )
 

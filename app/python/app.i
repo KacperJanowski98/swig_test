@@ -7,5 +7,5 @@
 #include <simple/app_c.h>
 %}
 
-%#include <simple/app/types.h>
-%#include <simple/app_c.h>
+%include <simple/app/types.h>
+%include <simple/app_c.h>
